@@ -1,0 +1,21 @@
+---
+title: "DDP 2"
+author: "Gabre Hughes"
+date: "6/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Petal length vs width in each species
+### Date: June 20th 2020  
+```{r}
+suppressPackageStartupMessages(library(plotly))
+plot_ly(iris, x = iris$Petal.Length, y = iris$Petal.Width, 
+        type = 'scatter', mode = 'markers', color = iris$Species) %>% 
+  layout(xaxis = list(title = 'Petal Length'), yaxis = list(title = 'Petal Width'))
+```
+
+  - The Setosa species has the least petal length and width  

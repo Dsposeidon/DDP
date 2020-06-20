@@ -1,0 +1,12 @@
+name: ssdd
+title: ssdd
+username:
+account: dsposeidon
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2482838
+bundleId: 3296249
+url: https://dsposeidon.shinyapps.io/ssdd/
+when: 1592682725.64549
+asMultiple: FALSE
+asStatic: FALSE
